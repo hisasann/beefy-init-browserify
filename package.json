@@ -1,0 +1,36 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "beefy src/index.coffee:bundle.js --live",
+    "build": "browserify src/index.coffee > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "hisasann",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "jquery": "^1.11.1",
+    "beefy": "^2.1.1",
+    "browserify": "^5.11.0",
+    "coffeeify": "^0.6.0"
+  },
+  "dependencies": {
+  },
+  "browserify": {
+    "transform": [
+      [ "coffeeify" ]
+    ]
+  }
+}
